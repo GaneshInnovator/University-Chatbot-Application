@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#chatContainer {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#chatLog {
+    height: 300px;
+    overflow-y: scroll;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+#userInput {
+    display: flex;
+}
+
+#userMessage {
+    flex: 1;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+}
